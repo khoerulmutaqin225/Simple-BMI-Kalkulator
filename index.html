@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calulation</h1>
+      <form>
+        <div class="input">
+          <label for="berat-badan">Berat badan dalam Kg</label>
+          <input type="number" id="berat-badan" />
+        </div>
+        <div class="input">
+          <label for="tinggi-badan">Tinggi badan dalam cm</label>
+          <input type="number" id="tinggi-badan" />
+        </div>
+        <div>
+          <button type="button" class="button-calculate">Calculate</button>
+        </div>
+      </form>
+
+      <h2>Nilai BMI:</h2>
+      <h3 id="result"></h3>
+      <div id="description"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
